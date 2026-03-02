@@ -24,7 +24,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CYnfhgPj.js",
+    "file": "assets/app-Bxq9ZKs7.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -53,7 +53,7 @@
     ]
   },
   "resources/js/components/Agenda.vue": {
-    "file": "assets/Agenda-DspZcxuN.js",
+    "file": "assets/Agenda-BA64FgyF.js",
     "name": "Agenda",
     "src": "resources/js/components/Agenda.vue",
     "isDynamicEntry": true,
@@ -66,7 +66,7 @@
     ]
   },
   "resources/js/components/CategoriesSection.vue": {
-    "file": "assets/CategoriesSection-Dv66urSH.js",
+    "file": "assets/CategoriesSection-wDOtfpAK.js",
     "name": "CategoriesSection",
     "src": "resources/js/components/CategoriesSection.vue",
     "isDynamicEntry": true,
@@ -79,7 +79,7 @@
     ]
   },
   "resources/js/components/CtaSection.vue": {
-    "file": "assets/CtaSection-BwUXbCSs.js",
+    "file": "assets/CtaSection-Bt-8y-ax.js",
     "name": "CtaSection",
     "src": "resources/js/components/CtaSection.vue",
     "isDynamicEntry": true,
@@ -92,7 +92,7 @@
     ]
   },
   "resources/js/components/EventsSection.vue": {
-    "file": "assets/EventsSection-DF44yqEm.js",
+    "file": "assets/EventsSection-DnR8jJtO.js",
     "name": "EventsSection",
     "src": "resources/js/components/EventsSection.vue",
     "isDynamicEntry": true,
@@ -105,7 +105,7 @@
     ]
   },
   "resources/js/components/FeaturedGalleries.vue": {
-    "file": "assets/FeaturedGalleries-CNFJLBLm.js",
+    "file": "assets/FeaturedGalleries-hV_-5NzP.js",
     "name": "FeaturedGalleries",
     "src": "resources/js/components/FeaturedGalleries.vue",
     "isDynamicEntry": true,
@@ -118,7 +118,7 @@
     ]
   },
   "resources/js/components/Gallery.vue": {
-    "file": "assets/Gallery-UUVHyNRx.js",
+    "file": "assets/Gallery-CMY1FzSQ.js",
     "name": "Gallery",
     "src": "resources/js/components/Gallery.vue",
     "isDynamicEntry": true,
@@ -131,7 +131,7 @@
     ]
   },
   "resources/js/components/LatestNews.vue": {
-    "file": "assets/LatestNews-B5rJCSU9.js",
+    "file": "assets/LatestNews-0CQUnsB1.js",
     "name": "LatestNews",
     "src": "resources/js/components/LatestNews.vue",
     "isDynamicEntry": true,
@@ -144,7 +144,7 @@
     ]
   },
   "resources/js/components/OpdHeadGreetings.vue": {
-    "file": "assets/OpdHeadGreetings-C0wd5Xll.js",
+    "file": "assets/OpdHeadGreetings-ChVx88iR.js",
     "name": "OpdHeadGreetings",
     "src": "resources/js/components/OpdHeadGreetings.vue",
     "isDynamicEntry": true,
@@ -157,7 +157,7 @@
     ]
   },
   "resources/js/components/ProgramsSection.vue": {
-    "file": "assets/ProgramsSection-D9YfuNav.js",
+    "file": "assets/ProgramsSection-CLpT5HBK.js",
     "name": "ProgramsSection",
     "src": "resources/js/components/ProgramsSection.vue",
     "isDynamicEntry": true,
@@ -170,7 +170,7 @@
     ]
   },
   "resources/js/components/SocialMediaSection.vue": {
-    "file": "assets/SocialMediaSection-D_UtlnLu.js",
+    "file": "assets/SocialMediaSection-DBJQ3aOT.js",
     "name": "SocialMediaSection",
     "src": "resources/js/components/SocialMediaSection.vue",
     "isDynamicEntry": true,
@@ -183,7 +183,7 @@
     ]
   },
   "resources/js/components/SpecialCategoryNews.vue": {
-    "file": "assets/SpecialCategoryNews-CKse3JZO.js",
+    "file": "assets/SpecialCategoryNews-DOcHI2Aj.js",
     "name": "SpecialCategoryNews",
     "src": "resources/js/components/SpecialCategoryNews.vue",
     "isDynamicEntry": true,
