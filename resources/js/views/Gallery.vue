@@ -343,6 +343,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'Gallery',
@@ -529,7 +530,7 @@ export default {
     getImageUrl(images) {
       if (images && images.length > 0) {
         const imagePath = images[0].image_path;
-        return imagePath.startsWith('/storage/') ? imagePath : `/storage/${imagePath}`;
+        return config.getStorageUrl(imagePath);
       }
       return null;
     },

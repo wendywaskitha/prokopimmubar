@@ -19,6 +19,8 @@
 </template>
 
 <script>
+import config from '../config';
+
 export default {
   name: 'TrendingNews',
   props: {
@@ -40,9 +42,7 @@ export default {
       return views;
     },
     getFullImageUrl(imagePath) {
-      if (!imagePath) return null;
-      // Assuming images are stored in the storage/app/public directory
-      return `${window.location.origin}/storage/${imagePath}`;
+      return config.getStorageUrl(imagePath);
     },
     handleImageError(event) {
       // Set placeholder image on error

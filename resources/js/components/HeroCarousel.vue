@@ -38,6 +38,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'HeroCarousel',
@@ -67,8 +68,7 @@ export default {
       }
     },
     getFullImageUrl(imagePath) {
-      // Assuming the backend serves images from the storage directory
-      return `http://localhost:8000/storage/${imagePath}`;
+      return config.getStorageUrl(imagePath);
     },
     nextSlide() {
       this.currentSlide = (this.currentSlide + 1) % this.heroes.length;

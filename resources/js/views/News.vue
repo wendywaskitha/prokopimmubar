@@ -301,6 +301,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'News',
@@ -498,8 +499,7 @@ export default {
     
     getFullImageUrl(imagePath) {
       if (!imagePath) return 'https://placehold.co/400x250?text=No+Image';
-      if (imagePath.startsWith('http')) return imagePath;
-      return `http://localhost:8000/storage/${imagePath}`;
+      return config.getStorageUrl(imagePath);
     },
     
     handleImageError(event) {

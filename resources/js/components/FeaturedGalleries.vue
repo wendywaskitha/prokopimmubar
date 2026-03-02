@@ -40,6 +40,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'FeaturedGalleries',
@@ -68,11 +69,7 @@ export default {
       }
     },
     getFullImageUrl(imagePath) {
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `http://localhost:8000/storage/${cleanPath}`;
+      return config.getStorageUrl(imagePath);
     },
     goToGallery(id) {
       this.$router.push(`/gallery/${id}`);

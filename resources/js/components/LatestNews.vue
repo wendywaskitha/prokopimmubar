@@ -62,6 +62,7 @@
 <script>
 import api from '../services/api';
 import TrendingNews from './TrendingNews.vue';
+import config from '../config';
 
 export default {
   name: 'LatestNews',
@@ -93,12 +94,7 @@ export default {
       }
     },
     getFullImageUrl(imagePath) {
-      if (!imagePath) return 'https://placehold.co/600x400?text=No+Image';
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `http://localhost:8000/storage/${cleanPath}`;
+      return config.getStorageUrl(imagePath) || 'https://placehold.co/600x400?text=No+Image';
     },
     goToNews(slug) {
       this.$router.push(`/news/${slug}`);

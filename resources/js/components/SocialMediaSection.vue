@@ -71,6 +71,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'SocialMediaSection',
@@ -102,7 +103,7 @@ export default {
     getThumbnailUrl(item) {
       // Jika ada thumbnail khusus, gunakan itu
       if (item.thumbnail) {
-        return this.getFullImageUrl(item.thumbnail);
+        return config.getStorageUrl(item.thumbnail);
       }
 
       // Jika tidak, coba ekstrak dari embed code atau gunakan placeholder
@@ -138,13 +139,6 @@ export default {
         twitter: 'Twitter'
       };
       return platformNames[platform] || platform;
-    },
-    getFullImageUrl(imagePath) {
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `http://localhost:8000/storage/${cleanPath}`;
     },
     formatDate(dateString) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' };

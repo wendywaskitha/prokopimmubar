@@ -50,7 +50,7 @@
             <div class="news-grid">
               <article class="news-card" v-for="item in newsResults" :key="item.id">
                 <div class="card-image">
-                  <img :src="item.featured_image ? 'http://localhost:8000/storage/' + item.featured_image : 'https://placehold.co/400x250'" :alt="item.title">
+                  <img :src="item.featured_image ? config.getStorageUrl(item.featured_image) : 'https://placehold.co/400x250'" :alt="item.title">
                 </div>
                 <div class="card-content">
                   <div class="card-meta">
@@ -108,6 +108,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'SearchResults',

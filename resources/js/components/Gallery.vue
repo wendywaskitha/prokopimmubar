@@ -49,6 +49,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'Gallery',
@@ -77,12 +78,7 @@ export default {
       }
     },
     getFullImageUrl(imagePath) {
-      if (!imagePath) return 'https://placehold.co/400x300?text=No+Image';
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `http://localhost:8000/storage/${cleanPath}`;
+      return config.getStorageUrl(imagePath) || 'https://placehold.co/400x300?text=No+Image';
     },
     openGallery(id) {
       this.$router.push(`/gallery/${id}`);

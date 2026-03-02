@@ -380,6 +380,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'NewsDetail',
@@ -435,11 +436,7 @@ export default {
   },
   methods: {
     getFullImageUrl(imagePath) {
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `/storage/${cleanPath}`;
+      return config.getStorageUrl(imagePath);
     },
 
     async loadNews() {

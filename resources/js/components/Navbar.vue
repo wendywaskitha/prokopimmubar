@@ -5,7 +5,7 @@
         <!-- Logo Section -->
         <div class="logo">
           <div class="logo-icon" v-if="!settings.app_logo">📰</div>
-          <img v-else :src="`/storage/${settings.app_logo}`" class="logo-icon" alt="Logo">
+          <img v-else :src="getLogoUrl()" class="logo-icon" alt="Logo">
           <div class="logo-text">
             <span class="logo-main">{{ settings.app_name || 'WARTA DAERAH' }}</span>
             <span class="logo-sub">MUNA BARAT</span>
@@ -98,6 +98,7 @@
 <script>
 import { mapState, mapActions } from 'pinia';
 import { useSettingsStore } from '../stores/settings';
+import config from '../config';
 
 export default {
   name: 'Navbar',
@@ -116,6 +117,9 @@ export default {
   },
   methods: {
     ...mapActions(useSettingsStore, ['fetchSettings']),
+    getLogoUrl() {
+      return config.resolveStorageUrl(this.settings.app_logo);
+    },
     toggleMobileMenu() {
       this.isMobileMenuOpen = !this.isMobileMenuOpen;
     },

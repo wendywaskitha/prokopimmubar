@@ -24,7 +24,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-Bxq9ZKs7.js",
+    "file": "assets/app-CEXyDudQ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -42,7 +42,7 @@
       "resources/js/components/CtaSection.vue"
     ],
     "css": [
-      "assets/app-CykCQ2eA.css",
+      "assets/app-bwElYDtb.css",
       "assets/app-Cs_xZKNV.css"
     ],
     "assets": [
@@ -53,7 +53,7 @@
     ]
   },
   "resources/js/components/Agenda.vue": {
-    "file": "assets/Agenda-BA64FgyF.js",
+    "file": "assets/Agenda-CikjEANl.js",
     "name": "Agenda",
     "src": "resources/js/components/Agenda.vue",
     "isDynamicEntry": true,
@@ -66,7 +66,7 @@
     ]
   },
   "resources/js/components/CategoriesSection.vue": {
-    "file": "assets/CategoriesSection-wDOtfpAK.js",
+    "file": "assets/CategoriesSection-bmefEAiU.js",
     "name": "CategoriesSection",
     "src": "resources/js/components/CategoriesSection.vue",
     "isDynamicEntry": true,
@@ -79,7 +79,7 @@
     ]
   },
   "resources/js/components/CtaSection.vue": {
-    "file": "assets/CtaSection-Bt-8y-ax.js",
+    "file": "assets/CtaSection-BwT00gj3.js",
     "name": "CtaSection",
     "src": "resources/js/components/CtaSection.vue",
     "isDynamicEntry": true,
@@ -92,7 +92,7 @@
     ]
   },
   "resources/js/components/EventsSection.vue": {
-    "file": "assets/EventsSection-DnR8jJtO.js",
+    "file": "assets/EventsSection-CHARKulZ.js",
     "name": "EventsSection",
     "src": "resources/js/components/EventsSection.vue",
     "isDynamicEntry": true,
@@ -105,7 +105,7 @@
     ]
   },
   "resources/js/components/FeaturedGalleries.vue": {
-    "file": "assets/FeaturedGalleries-hV_-5NzP.js",
+    "file": "assets/FeaturedGalleries-BAZR1ZNB.js",
     "name": "FeaturedGalleries",
     "src": "resources/js/components/FeaturedGalleries.vue",
     "isDynamicEntry": true,
@@ -113,12 +113,12 @@
       "resources/js/app.js"
     ],
     "css": [
-      "assets/FeaturedGalleries-BWgTQmmG.css",
+      "assets/FeaturedGalleries-BtH8FT65.css",
       "assets/app-Cs_xZKNV.css"
     ]
   },
   "resources/js/components/Gallery.vue": {
-    "file": "assets/Gallery-CMY1FzSQ.js",
+    "file": "assets/Gallery-CJqr68XH.js",
     "name": "Gallery",
     "src": "resources/js/components/Gallery.vue",
     "isDynamicEntry": true,
@@ -126,12 +126,12 @@
       "resources/js/app.js"
     ],
     "css": [
-      "assets/Gallery-CY6UCIhL.css",
+      "assets/Gallery-BRaaDO_u.css",
       "assets/app-Cs_xZKNV.css"
     ]
   },
   "resources/js/components/LatestNews.vue": {
-    "file": "assets/LatestNews-0CQUnsB1.js",
+    "file": "assets/LatestNews-J6hr9YYt.js",
     "name": "LatestNews",
     "src": "resources/js/components/LatestNews.vue",
     "isDynamicEntry": true,
@@ -139,12 +139,12 @@
       "resources/js/app.js"
     ],
     "css": [
-      "assets/LatestNews-VE6RGqOW.css",
+      "assets/LatestNews-uOhkFDoU.css",
       "assets/app-Cs_xZKNV.css"
     ]
   },
   "resources/js/components/OpdHeadGreetings.vue": {
-    "file": "assets/OpdHeadGreetings-ChVx88iR.js",
+    "file": "assets/OpdHeadGreetings-BYcl0gKY.js",
     "name": "OpdHeadGreetings",
     "src": "resources/js/components/OpdHeadGreetings.vue",
     "isDynamicEntry": true,
@@ -157,7 +157,7 @@
     ]
   },
   "resources/js/components/ProgramsSection.vue": {
-    "file": "assets/ProgramsSection-CLpT5HBK.js",
+    "file": "assets/ProgramsSection-DyRymGZO.js",
     "name": "ProgramsSection",
     "src": "resources/js/components/ProgramsSection.vue",
     "isDynamicEntry": true,
@@ -170,7 +170,7 @@
     ]
   },
   "resources/js/components/SocialMediaSection.vue": {
-    "file": "assets/SocialMediaSection-DBJQ3aOT.js",
+    "file": "assets/SocialMediaSection-n-tAHz3l.js",
     "name": "SocialMediaSection",
     "src": "resources/js/components/SocialMediaSection.vue",
     "isDynamicEntry": true,
@@ -178,12 +178,12 @@
       "resources/js/app.js"
     ],
     "css": [
-      "assets/SocialMediaSection-CpG3ZTCv.css",
+      "assets/SocialMediaSection-BUJwMY49.css",
       "assets/app-Cs_xZKNV.css"
     ]
   },
   "resources/js/components/SpecialCategoryNews.vue": {
-    "file": "assets/SpecialCategoryNews-DOcHI2Aj.js",
+    "file": "assets/SpecialCategoryNews-BmC8GMOn.js",
     "name": "SpecialCategoryNews",
     "src": "resources/js/components/SpecialCategoryNews.vue",
     "isDynamicEntry": true,
@@ -191,7 +191,7 @@
       "resources/js/app.js"
     ],
     "css": [
-      "assets/SpecialCategoryNews-DHJ8L2GY.css",
+      "assets/SpecialCategoryNews-c0MHh8bt.css",
       "assets/app-Cs_xZKNV.css"
     ]
   }

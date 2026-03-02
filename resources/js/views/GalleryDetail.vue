@@ -236,6 +236,7 @@
 
 <script>
 import api from '../services/api';
+import config from '../config';
 
 export default {
   name: 'GalleryDetail',
@@ -256,17 +257,9 @@ export default {
   },
   methods: {
     getFullImageUrl(imagePath) {
-      // If the image path is already a full URL, return it as is
-      if (imagePath.startsWith('http')) {
-        return imagePath;
-      }
-      
-      // For Laravel storage paths, we need to prefix with /storage
-      // Remove leading slash if present to avoid double slashes
-      const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
-      return `/storage/${cleanPath}`;
+      return config.getStorageUrl(imagePath);
     },
-    
+
     async loadGallery() {
       this.loading = true;
       this.error = null;
