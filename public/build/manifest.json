@@ -1,0 +1,198 @@
+{
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-BdzBFuGj.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-DQuI-phE.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-BLm1ImsD.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-CT6k705G.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Cs_xZKNV.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CYnfhgPj.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/components/FeaturedGalleries.vue",
+      "resources/js/components/LatestNews.vue",
+      "resources/js/components/SpecialCategoryNews.vue",
+      "resources/js/components/CategoriesSection.vue",
+      "resources/js/components/OpdHeadGreetings.vue",
+      "resources/js/components/ProgramsSection.vue",
+      "resources/js/components/EventsSection.vue",
+      "resources/js/components/Agenda.vue",
+      "resources/js/components/SocialMediaSection.vue",
+      "resources/js/components/Gallery.vue",
+      "resources/js/components/CtaSection.vue"
+    ],
+    "css": [
+      "assets/app-CykCQ2eA.css",
+      "assets/app-Cs_xZKNV.css"
+    ],
+    "assets": [
+      "assets/fa-brands-400-BdzBFuGj.woff2",
+      "assets/fa-regular-400-DQuI-phE.woff2",
+      "assets/fa-solid-900-BLm1ImsD.woff2",
+      "assets/fa-v4compatibility-CT6k705G.woff2"
+    ]
+  },
+  "resources/js/components/Agenda.vue": {
+    "file": "assets/Agenda-DspZcxuN.js",
+    "name": "Agenda",
+    "src": "resources/js/components/Agenda.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Agenda-Bh0ornxi.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/CategoriesSection.vue": {
+    "file": "assets/CategoriesSection-Dv66urSH.js",
+    "name": "CategoriesSection",
+    "src": "resources/js/components/CategoriesSection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/CategoriesSection-D_yWjTNU.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/CtaSection.vue": {
+    "file": "assets/CtaSection-BwUXbCSs.js",
+    "name": "CtaSection",
+    "src": "resources/js/components/CtaSection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/CtaSection-BOzSjnr2.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/EventsSection.vue": {
+    "file": "assets/EventsSection-DF44yqEm.js",
+    "name": "EventsSection",
+    "src": "resources/js/components/EventsSection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/EventsSection-FpMV5dic.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/FeaturedGalleries.vue": {
+    "file": "assets/FeaturedGalleries-CNFJLBLm.js",
+    "name": "FeaturedGalleries",
+    "src": "resources/js/components/FeaturedGalleries.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/FeaturedGalleries-BWgTQmmG.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/Gallery.vue": {
+    "file": "assets/Gallery-UUVHyNRx.js",
+    "name": "Gallery",
+    "src": "resources/js/components/Gallery.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Gallery-CY6UCIhL.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/LatestNews.vue": {
+    "file": "assets/LatestNews-B5rJCSU9.js",
+    "name": "LatestNews",
+    "src": "resources/js/components/LatestNews.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/LatestNews-VE6RGqOW.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/OpdHeadGreetings.vue": {
+    "file": "assets/OpdHeadGreetings-C0wd5Xll.js",
+    "name": "OpdHeadGreetings",
+    "src": "resources/js/components/OpdHeadGreetings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/OpdHeadGreetings-B85gvkxv.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/ProgramsSection.vue": {
+    "file": "assets/ProgramsSection-D9YfuNav.js",
+    "name": "ProgramsSection",
+    "src": "resources/js/components/ProgramsSection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/ProgramsSection-C5lUig9-.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/SocialMediaSection.vue": {
+    "file": "assets/SocialMediaSection-D_UtlnLu.js",
+    "name": "SocialMediaSection",
+    "src": "resources/js/components/SocialMediaSection.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/SocialMediaSection-CpG3ZTCv.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  },
+  "resources/js/components/SpecialCategoryNews.vue": {
+    "file": "assets/SpecialCategoryNews-CKse3JZO.js",
+    "name": "SpecialCategoryNews",
+    "src": "resources/js/components/SpecialCategoryNews.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/SpecialCategoryNews-DHJ8L2GY.css",
+      "assets/app-Cs_xZKNV.css"
+    ]
+  }
+}

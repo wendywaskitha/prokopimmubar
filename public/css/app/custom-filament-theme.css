@@ -1,0 +1,36 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config './tailwind.config.js';
+
+.fi-sidebar-nav {
+    @apply gap-1;
+}
+
+.fi-sidebar-item {
+    @apply rounded-lg;
+}
+
+.fi-sidebar-item-active {
+    @apply bg-primary-50 text-primary-500;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon {
+    @apply text-primary-500;
+}
+
+/* Custom Auth UI Enhancer Styles */
+.custom-auth-form-wrapper {
+    @apply p-8;
+}
+
+.custom-auth-form-panel {
+    @apply p-4;
+}
+
+.fi-form > div {
+    @apply space-y-4;
+}
+
+.fi-btn {
+    @apply px-6 py-2;
+}
